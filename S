@@ -1,0 +1,32 @@
+# Do Not Touch # Do Not Touch # Do Not Touch # Do Not Touch # Do Not Touch # Do Not Touch # Do Not Touch
+def test_data_type_1_1(rational):
+    if rational.is_integer():
+        print(f"Output: {rational}")
+        print("Failed")
+    else:
+        print(f"Output: {rational}")
+        print("Passed")
+# Do Not Touch # Do Not Touch # Do Not Touch # Do Not Touch # Do Not Touch # Do Not Touch # Do Not Touch
+
+
+def crashCourse():
+    integer = 5                                      # The Name connect to the value is arbiarity and could be anythig but a keyword
+    print(f"The Value of x is {integer}")            # {} are at the end to insert a var into a string 
+
+    string = "iknowyoujustgotdonesmoking"
+    print(string)
+
+def data_type_1_1():
+    return                                           # return whatever you must to get Passed  
+
+def main():
+    test_data_type_1_1( data_type_1_1())
+
+# Ignore For Now 
+if __name__ == "__main__":
+    main()
+
+# i know funtions will be convered in 1.3 but for a little help here this 
+
+#    def{FuntionName}({input},{input},{input}.......):
+#        return {value}22
